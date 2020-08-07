@@ -11,3 +11,7 @@ body {
   font-family: "Play", sans-serif;
   font-size: 12px;
 }
+
+.sortable_tabs {
+  display: flex;
+}

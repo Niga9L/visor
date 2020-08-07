@@ -48,3 +48,24 @@ export const TabName = styled.p`
     }
   }}
 `
+
+export const TabAdd = styled.div`
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  padding: 0 5px;
+  margin-left: 10px;
+`
+
+export const TabAddIcon = styled.i`
+  padding: 0 10px;
+  font-size: 20px;
+  color: #444;
+  cursor: pointer;
+  opacity: .7;
+  
+  :hover {
+    color: #07a5fb;
+  }
+`
