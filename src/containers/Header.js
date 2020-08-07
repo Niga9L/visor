@@ -16,7 +16,7 @@ export const Header = () => {
 
   return (
     <HeaderContent>
-      <Logo href='#' >МСОКА</Logo>
+      <Logo href='#'>МСОКА</Logo>
       <List>
         {menu.map((item, index) => {
           if (index === 0) {
